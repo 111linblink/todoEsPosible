@@ -1,5 +1,6 @@
 import React from 'react';
 
+//header
 const Header = () => {
   return (
     <header style={styles.header}>
