@@ -4,14 +4,18 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/feature-header';
 import FeatureFooter from './components/feature-footer';
+import FeatureUIImprovements from './components/feature-ui-improvement';
 import Content from './components/feature-content';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
-    <FeatureFooter/>
+    <FeatureUIImprovements />
     <Content/>
+    <FeatureFooter/>
+    
   </React.StrictMode>
 );
 
